@@ -24,3 +24,6 @@
 
 # Audio socket
 /dev/socket/audio_hw_socket                                                          u:object_r:audio_socket:s0
+
+# Power HAL
+/(vendor|system/vendor)/bin/hw/android\.hardware\.power@1\.2-service-qti             u:object_r:hal_power_default_exec:s0
